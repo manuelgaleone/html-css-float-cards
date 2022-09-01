@@ -59,7 +59,7 @@ h3 {
     background-color: black;
     width: calc(100% /3);
     float: left;
-
+    box-shadow: 0 0 10px black;
 }   
 
 img {

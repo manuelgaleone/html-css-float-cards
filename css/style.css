@@ -58,10 +58,9 @@ h3 {
 }
 
 /*Row*/
-
 .back {
     background-color: black;
-
+    box-shadow: 0 0 5px black;
 }
 
 .row-3 {
@@ -78,6 +77,5 @@ img {
     width: 100px;
     float: left;
     margin-right: 15px;
-    vertical-align: middle;
 
 }

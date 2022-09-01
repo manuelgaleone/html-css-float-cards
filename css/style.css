@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comic Neue', cursive;
-
 }
 
 .cleafix::after {
@@ -24,7 +23,7 @@ header {
 .main-container {
     width: 70%;
     margin: 0 auto;
-
+    
 }
 
 /*Texts*/
@@ -36,10 +35,6 @@ h1 {
 
 p {
     margin-bottom: 20px;
-}
-
-.info {
-    
 }
 
 h3 {
@@ -58,11 +53,11 @@ h3 {
 }
 
 /*Row*/
+
 .row-3 {
     background-color: black;
     width: calc(100% /3);
     float: left;
-    
 
 }   
 

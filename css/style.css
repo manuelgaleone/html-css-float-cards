@@ -6,7 +6,7 @@
     font-family: 'Comic Neue', cursive;
 }
 
-.cleafix::after {
+.clearfix::after {
     display: table;
     clear: both;
     content: "";
@@ -53,13 +53,24 @@ h3 {
     
 }
 
+.info {
+
+}
+
 /*Row*/
 
-.row-3 {
+.back {
     background-color: black;
-    width: calc(100% /3);
+
+}
+
+.row-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    width: calc(100% / 3);
     float: left;
-    box-shadow: 0 0 10px black;
+
 }   
 
 img {
@@ -67,4 +78,6 @@ img {
     width: 100px;
     float: left;
     margin-right: 15px;
+    vertical-align: middle;
+
 }

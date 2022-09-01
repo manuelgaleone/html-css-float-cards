@@ -1,21 +1,10 @@
+/*General settings*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comic Neue', cursive;
 
-}
-
-header {
-    padding: 20px;
-    text-align: center;
-
-}
-
-.main-container {
-    width: 70%;
-    margin: 0;
-    text-align: center;
 }
 
 .cleafix::after {
@@ -25,8 +14,56 @@ header {
 
 }
 
+/*Header*/
+header {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.main-container {
+    width: 70%;
+    margin: 0;
+    
+}
+
+/*Texts*/
 h1 {
     font-weight: 700;
     margin-bottom: 40px;
     color: palevioletred;
+}
+
+.info {
+    margin-left:5px;
+}
+
+h3 {
+    color:white;
+    margin-bottom: 5px;
+}
+
+.work {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.contact {
+    color: dodgerblue;
+    
+}
+
+/*Row*/
+.row-3 {
+    background-color: black;
+    text-align: left;
+    width: calc(100% /3);
+    float: left;
+    
+}   
+
+img {
+    max-width: 100%;
+    width: 100px;
+    float: left;
 }
